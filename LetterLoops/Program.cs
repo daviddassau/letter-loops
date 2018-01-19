@@ -10,6 +10,13 @@ namespace LetterLoops
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Please enter any word...");
+
+            var stringInput = Console.ReadLine();
+
+            LoopDaStrang.ConvertUserInput(stringInput);
+
         }
     }
 }
